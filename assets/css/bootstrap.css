@@ -750,6 +750,7 @@ pre code {
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
+  
 }
 
 .container:before,
@@ -3206,7 +3207,7 @@ input[type="button"].btn-block {
   height: 0;
   margin-left: 2px;
   vertical-align: middle;
-  border-top: 4px solid #000000;
+  border-top: 4px solid white;
   border-right: 4px solid transparent;
   border-bottom: 0 dotted;
   border-left: 4px solid transparent;
@@ -3328,7 +3329,7 @@ input[type="button"].btn-block {
 .dropup .caret,
 .navbar-fixed-bottom .dropdown .caret {
   border-top: 0 dotted;
-  border-bottom: 4px solid #000000;
+  border-bottom: 4px solid white;
   content: "";
 }
 
@@ -5566,7 +5567,7 @@ a.list-group-item:focus {
   font-size: 21px;
   font-weight: bold;
   line-height: 1;
-  color: #000000;
+  color: white;
   text-shadow: 0 1px 0 #ffffff;
   opacity: 0.2;
   filter: alpha(opacity=20);
@@ -5574,7 +5575,7 @@ a.list-group-item:focus {
 
 .close:hover,
 .close:focus {
-  color: #000000;
+  color: white;
   text-decoration: none;
   cursor: pointer;
   opacity: 0.5;
@@ -5654,7 +5655,7 @@ body.modal-open,
   bottom: 0;
   left: 0;
   z-index: 1030;
-  background-color: #000000;
+  background-color: white;
 }
 
 .modal-backdrop.fade {

@@ -79,7 +79,7 @@ a:after {
    ========================================================================== */
 
 #headerwrap {
-	background: url(../img/header-bg.jpg) no-repeat center top;
+	background: src(img/Westlakeimg.jpg);
 	margin-top: -10px;
 	padding-top:20px;
 	text-align:center;
@@ -87,6 +87,7 @@ a:after {
 	background-position: center center;
 	min-height: 700px;
 	width: 100%;
+    z-index: 1;
 	
     -webkit-background-size: 100%;
     -moz-background-size: 100%;
@@ -124,7 +125,7 @@ a:after {
 /* Footer Wrap */
 
 #f {
-	background: #1a1a1a;
+	background: white;
 	padding-top: 70px;
 	padding-bottom: 70px;
 	text-align: center
@@ -145,7 +146,7 @@ a:after {
 
 #f p {
 	font-size: 20px;
-	color: #f2f2f2;
+	color: black;
 }
 
 #f img {
@@ -173,7 +174,7 @@ a:after {
 	position: absolute;
 	top: 0;
 	left: 60px;
-	background: #1a1a1a;
+	background: black;
 	width: 200px;
 	height: 100%;
 }
@@ -310,4 +311,17 @@ a:after {
 			transition: all .1s ease-in-out;
 }
 
+#gradient {
 
+    position:absolute;
+    z-index: 100;
+    z-index:2;
+    right:0; bottom:0; left:0;
+    height:200px;
+    background: -moz-linear-gradient(top,  rgba(255,255,255,0) 0%, rgba(255,255,255,1) 70%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,0)), color-stop(70%,rgba(255,255,255,1)));
+    background: -webkit-linear-gradient(top,  rgba(255,255,255,0) 0%,rgba(255,255,255,1) 70%);
+    background: -o-linear-gradient(top,  rgba(255,255,255,0) 0%,rgba(255,255,255,1) 70%);
+    background: -ms-linear-gradient(top,  rgba(255,255,255,0) 0%,rgba(255,255,255,1) 70%);
+    background: linear-gradient(to bottom,  rgba(255,255,255,0) 0%,rgba(255,255,255,1) 70%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#ffffff',GradientType=0 );
