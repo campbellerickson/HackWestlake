@@ -79,7 +79,6 @@ a:after {
    ========================================================================== */
 
 #headerwrap {
-	background: url(../img/header-bg.jpg) no-repeat center top;
 	margin-top: -10px;
 	padding-top:20px;
 	text-align:center;
@@ -124,14 +123,14 @@ a:after {
 /* Footer Wrap */
 
 #f {
-	background: #1a1a1a;
+	background: #fff;
 	padding-top: 70px;
 	padding-bottom: 70px;
 	text-align: center
 }
 
 #f h3 {
-	color: white;
+	color: black;
 	font-size: 28px;
 	font-weight: 700;
 	letter-spacing: 1px;	
@@ -145,7 +144,7 @@ a:after {
 
 #f p {
 	font-size: 20px;
-	color: #f2f2f2;
+	color: #000;
 }
 
 #f img {
@@ -170,7 +169,7 @@ a:after {
 }
 
 .menu-wrap {
-	position: absolute;
+	position: relative;
 	top: 0;
 	left: 60px;
 	background: #1a1a1a;
@@ -310,4 +309,12 @@ a:after {
 			transition: all .1s ease-in-out;
 }
 
-
+.image {
+    position: relative;
+    text-align: center;
+    height: 100px;
+    z-index: auto;
+    background-image: url("/assets/img/Hackwestlake.png")
+    
+    
+}
