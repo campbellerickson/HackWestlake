@@ -1,43 +1,34 @@
-/*
- * Author: Carlos Alvarez
- * URL: http://alvarez.is
- *
- * Project Name: Minimal - Free Bootstrap 3 Theme
- * Version: 1.0
- * URL: http://blacktie.co
- */
-
 body {
-  background-color: #f2f2f2;
+  background-color: #fff;
     font-family: 'EB Garamond', serif;
     font-weight: 300;
     font-size: 16px;
     color: #555;
-
-    -webkit-font-smoothing: antialiased;
-    -webkit-overflow-scrolling: touch;
+    text-align: center;
 }
-
-/* Titles */
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Oswald', sans-serif;
     font-weight: 300;
     color: #333;
 }
-
-
-/* Paragraph & Typographic */
 p {
     line-height: 28px;
     margin-bottom: 25px;
 }
-
-.centered {
-    text-align: center;
+#logo{
+   
+    max-width: 100%;
+    width: 600px;
+    height: auto;
+    width: auto\9;
+    transform: rotate(-57deg); 
+    -ms-transform: rotate(-57deg); 
+    -webkit-transform: rotate(-57deg); 
+    -moz-transform: rotate(-57deg);
 }
 
-/* Links */
-a {
+}
+menu {
     color: #f85c37;
     word-wrap: break-word;
 
@@ -48,36 +39,21 @@ a {
     transition: color 0.1s ease-in, background 0.1s ease-in;
 }
 
-a:hover,
-a:focus {
+menu:hover,
+menu:focus {
     color: #7b7b7b;
     text-decoration: none;
     outline: 0;
 }
 
-a:before,
-a:after {
+menu:before,
+menu:after {
     -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
     -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
     -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
     -o-transition: color 0.1s ease-in, background 0.1s ease-in;
     transition: color 0.1s ease-in, background 0.1s ease-in;
 }
-
- hr {
-    display: block;
-    height: 1px;
-    border: 0;
-    border-top: 1px solid #ccc;
-    margin: 1em 0;
-    padding: 0;
-}
-
-
-/* ==========================================================================
-   Wrap Sections
-   ========================================================================== */
-
 #headerwrap {
 	background: src(img/Westlakeimg.jpg);
 	margin-top: -10px;
@@ -107,35 +83,11 @@ a:after {
 	font-weight: 700;
 }
 
-#headerwrap h3 {
-	color: white;
-	font-size: 30px;
-	font-weight: 100;
-    font-family: 'EB Garamond', serif;
-    font-style: oblique;
-}
-
-#headerwrap .logo {
-	text-align: left;
-	margin-left: 20px;
-	margin-top: 15px;
-}
-
-
-/* Footer Wrap */
-
 #f {
 	background: white;
 	padding-top: 70px;
 	padding-bottom: 70px;
 	text-align: center
-}
-
-#f h3 {
-	color: white;
-	font-size: 28px;
-	font-weight: 700;
-	letter-spacing: 1px;	
 }
 
 #f i {
@@ -153,8 +105,6 @@ a:after {
 	text-align: center;
 }
 
-
-/* MENU CONF*/
 
 .menu {
 	position: fixed;
@@ -311,17 +261,3 @@ a:after {
 			transition: all .1s ease-in-out;
 }
 
-#gradient {
-
-    position:absolute;
-    z-index: 100;
-    z-index:2;
-    right:0; bottom:0; left:0;
-    height:200px;
-    background: -moz-linear-gradient(top,  rgba(255,255,255,0) 0%, rgba(255,255,255,1) 70%);
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,0)), color-stop(70%,rgba(255,255,255,1)));
-    background: -webkit-linear-gradient(top,  rgba(255,255,255,0) 0%,rgba(255,255,255,1) 70%);
-    background: -o-linear-gradient(top,  rgba(255,255,255,0) 0%,rgba(255,255,255,1) 70%);
-    background: -ms-linear-gradient(top,  rgba(255,255,255,0) 0%,rgba(255,255,255,1) 70%);
-    background: linear-gradient(to bottom,  rgba(255,255,255,0) 0%,rgba(255,255,255,1) 70%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#ffffff',GradientType=0 );
